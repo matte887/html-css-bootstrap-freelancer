@@ -23,6 +23,10 @@ img {
     width: 100%;
 }
 
+h1, h2, h4 {
+    text-transform: uppercase;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -31,7 +35,6 @@ header {
 }
 
 .header-title h1{
-    text-transform: uppercase;
     font-size: 1.5rem;
     line-height: 80px;
 }
@@ -60,23 +63,62 @@ header {
     width: 33%;
 }
 
-.jumbotron h2,
-.jumbotron h4 {
-    text-transform: uppercase;
-}
-
 /* PORTFOLIO */
 .portfolio{
     text-align: center;
     color: black;
 }
 
-.portfolio h2 {
-    text-transform: uppercase;
-}
-
 .portfolio-img {
     border-radius: 10px;
     overflow: hidden;
     margin: 0.5rem 0rem;
+}
+
+/* ABOUT */
+.about .container-fluid {
+    background-color: lightblue; 
+}
+
+.ms-container {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.ms-container .about-text {
+    text-align: left;
+}
+
+#download-button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: inherit;
+}
+
+/* CONTACT ME */
+.contact {
+    color: black;
+}
+
+.contact .form {
+    text-align: left;
+}
+
+.contact span {
+    display: block;
+}
+
+.form span::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+
+.form span:last-child::after {
+    margin-top: 5rem;
 }
