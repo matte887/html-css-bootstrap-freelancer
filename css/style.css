@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -59,4 +63,20 @@ header {
 .jumbotron h2,
 .jumbotron h4 {
     text-transform: uppercase;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    text-align: center;
+    color: black;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+}
+
+.portfolio-img {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.5rem 0rem;
 }
