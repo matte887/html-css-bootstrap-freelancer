@@ -1,3 +1,4 @@
+/* CUSTOM VAR */
 :root {
     /* Colors */
     --head-bottom-color: #2c3e50;
@@ -8,10 +9,6 @@
 /* RESET */
 html {
     font-size: 100%;
-}
-
-body {
-    color: white;
 }
 
 ul {
@@ -26,8 +23,20 @@ img {
     width: 100%;
 }
 
+/* COMMON */
+body {
+    color: white;
+}
+
 h1, h2, h4, h6 {
     text-transform: uppercase;
+}
+
+.ms-container {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 /* HEADER */
@@ -46,20 +55,15 @@ header {
     display: inline-block;
 }
 
-.burger,
-.header-menu {
-    text-align: right;
-}
-
 .header-menu li a {
-    color: white;
     text-transform: uppercase;
+    color: white;
 }
 
 /* JUMBOTRON */
 .jumbotron {
-    background-color: var(--main-color);
     text-align: center;
+    background-color: var(--main-color);
 }
 
 .jumbotron img {
@@ -67,7 +71,7 @@ header {
 }
 
 /* PORTFOLIO */
-.portfolio{
+.portfolio {
     text-align: center;
     color: black;
 }
@@ -83,21 +87,14 @@ header {
     background-color: var(--main-color); 
 }
 
-.ms-container {
-    margin: 0 auto;
-    width: 60%;
-    text-align: center;
-    padding: 1rem 0;
-}
-
 .ms-container .about-text {
-    text-align: left;
+    text-align: initial;
 }
 
 #download-button {
+    padding: .5rem 1rem;
     border: 1px solid white;
     border-radius: 5px;
-    padding: .5rem 1rem;
     color: inherit;
 }
 
@@ -107,7 +104,7 @@ header {
 }
 
 .contact .form {
-    text-align: left;
+    text-align: initial;
 }
 
 .contact span {
@@ -115,11 +112,11 @@ header {
 }
 
 .form span::after {
-    content: "";
+    display: block;
     width: 100%;
     height: 1px;
+    content: "";
     background-color: black;
-    display: block;
 }
 
 .form span:last-child::after {
