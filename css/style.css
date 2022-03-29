@@ -1,7 +1,7 @@
 /* CUSTOM VAR */
 :root {
     /* Colors */
-    --head-bottom-color: #2c3e50;
+    --accent-color: #2c3e50;
     --main-color: #1abc9c;
     --footer-color: #3a546d;
 }
@@ -39,11 +39,28 @@ h1, h2, h4, h6 {
     padding: 1rem 0;
 }
 
+/* Common: Star */
+.star::after,
+.star::before {
+    display: inline-block;
+    content: "";
+    width: 100px;
+    height: 3px;
+    vertical-align: middle;
+    background-color: white;
+    margin: 0 1rem;
+}
+
+.star-accent::after,
+.star-accent::before {
+    background-color: var(--accent-color);
+}
+
 /* HEADER */
 header {
     height: 80px;
     line-height: 80px;
-    background-color: var(--head-bottom-color);
+    background-color: var(--accent-color);
 }
 
 .header-title h1{
@@ -73,7 +90,7 @@ header {
 /* PORTFOLIO */
 .portfolio {
     text-align: center;
-    color: black;
+    color: var(--accent-color);
 }
 
 .portfolio-img {
@@ -100,7 +117,7 @@ header {
 
 /* CONTACT ME */
 .contact {
-    color: black;
+    color: var(--accent-color);
 }
 
 .contact .form {
@@ -116,7 +133,7 @@ header {
     width: 100%;
     height: 1px;
     content: "";
-    background-color: black;
+    background-color: var(--accent-color);
 }
 
 .form span:last-child::after {
@@ -130,5 +147,5 @@ footer {
 }
 
 .page-bottom {
-    background-color: var(--head-bottom-color);
+    background-color: var(--accent-color);
 }
