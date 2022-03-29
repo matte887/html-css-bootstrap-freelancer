@@ -1,0 +1,62 @@
+/* Debug */
+[class^="col"] {
+    /* border: 1px solid black; */
+}
+/* RESET */
+html {
+    font-size: 100%;
+}
+
+body {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: lightcoral;
+}
+
+.header-title h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 80px;
+}
+
+.header-menu li {
+    display: inline-block;
+}
+
+.burger,
+.header-menu {
+    text-align: right;
+}
+
+.header-menu li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.jumbotron img {
+    width: 33%;
+}
+
+.jumbotron h2,
+.jumbotron h4 {
+    text-transform: uppercase;
+}
