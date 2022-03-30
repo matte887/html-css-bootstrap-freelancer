@@ -18,6 +18,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
 }
 
 img {
@@ -176,6 +181,19 @@ header {
 footer {
     background-color: var(--footer-color);
     text-align: center;
+}
+
+footer .col p {
+    padding: 0 5rem;
+}
+
+footer .col p i {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 0.3rem;
+    line-height: 2.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 .page-bottom {
