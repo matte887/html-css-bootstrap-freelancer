@@ -32,11 +32,16 @@ h1, h2, h4, h6 {
     text-transform: uppercase;
 }
 
-.ms-container {
+.ms_container {
     margin: 0 auto;
     width: 60%;
+    max-width: 1170px;
     text-align: center;
     padding: 1rem 0;
+}
+
+.ms_pad {
+    padding: 2rem 0;
 }
 
 /* Common: Star */
@@ -96,19 +101,18 @@ header {
 .portfolio-img {
     border-radius: 10px;
     overflow: hidden;
-    margin: 0.5rem 0rem;
 }
 
 /* ABOUT */
-.about .container-fluid {
+.about {
     background-color: var(--main-color); 
 }
 
-.ms-container .about-text {
+.ms_container .about-text {
     text-align: initial;
 }
 
-#download-button {
+#download-button a {
     padding: .5rem 1rem;
     border: 1px solid white;
     border-radius: 5px;

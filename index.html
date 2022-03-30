@@ -29,20 +29,22 @@
                     <div class="burger text-end d-md-none">
                         <i class="fas fa-bars"></i>
                     </div>
-                    <div class="header-menu text-end d-none d-md-block">
+                    <nav class="header-menu text-end d-none d-md-block">
+                       
                         <ul>
                             <li><a href="">link</a></li>
                             <li><a href="">link</a></li>
                             <li><a href="">link</a></li>
                         </ul>
-                    </div>
+                        
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="jumbotron">
-        <div class="container-fluid">
+    <div class="jumbotron ms_pad">
+        <div class="container">
             <div class="user-avatar">
                 <img src="img/avatar.svg" alt="">
             </div>
@@ -54,112 +56,118 @@
         </div>
     </div>
 
-    <section class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="star star-accent">
-                <i class="fas fa-star"></i>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/cabin.png" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/cake.png" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/circus.png" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/game.png" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/safe.png" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="portfolio-img">
-                        <img src="img/submarine.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <seciont class="about">
-        <div class="container-fluid">
-            <div class="ms-container">
-                <h2>About</h2>
-                <div class="star">
+    <main>
+        <section class="portfolio ms_pad">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="star star-accent">
                     <i class="fas fa-star"></i>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <p class="about-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta incidunt architecto et ad aperiam quasi, ipsam rem repellendus voluptatem ratione assumenda odit iusto corporis culpa possimus ex! Nobis, eum?
-                        </p>
+                        <div class="portfolio-img">
+                            <img src="img/cabin.png" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <p class="about-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta incidunt architecto et ad aperiam quasi, ipsam rem repellendus voluptatem ratione assumenda odit iusto corporis culpa possimus ex! Nobis, eum?
-                        </p>
+                        <div class="portfolio-img">
+                            <img src="img/cake.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="portfolio-img">
+                            <img src="img/circus.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="portfolio-img">
+                            <img src="img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="portfolio-img">
+                            <img src="img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="portfolio-img">
+                            <img src="img/submarine.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <a href="" id="download-button">Download</a>
             </div>
-        </div>
-    </seciont>
+        </section>
 
-    <section class="contact">
-        <div class="ms-container">
-            <h2>Contact me</h2>
-            <div class="star star-accent">
-                <i class="fas fa-star"></i>
+        <section class="about ms_pad">
+            <div class="ms_container">
+                <div class="container-fluid">
+                    <h2>About</h2>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">
+                            <p class="about-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta incidunt architecto et ad aperiam quasi, ipsam rem repellendus voluptatem ratione assumenda odit iusto corporis culpa possimus ex! Nobis, eum?
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="about-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta incidunt architecto et ad aperiam quasi, ipsam rem repellendus voluptatem ratione assumenda odit iusto corporis culpa possimus ex! Nobis, eum?
+                            </p>
+                        </div>
+                    </div>
+                    <div id="download-button">
+                        <a href="">Download</a>
+                    </div>
+                </div>
             </div>
-            <div class="form">
-                <span>
-                    Name
-                </span>
-                <span>
-                    Email Address
-                </span>
-                <span>
-                    Phone Number
-                </span>
-                <span>
-                    Message
-                </span>
+        </section>
+
+        <section class="contact ms_pad">
+            <div class="ms_container">
+                <h2>Contact me</h2>
+                <div class="star star-accent">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="form">
+                    <span>
+                        Name
+                    </span>
+                    <span>
+                        Email Address
+                    </span>
+                    <span>
+                        Phone Number
+                    </span>
+                    <span>
+                        Message
+                    </span>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col">
-                    <h6>Location</h6>
-                    <p>dsfg dghsdif ugvd</p>
-                </div>
-                <div class="col">
-                    <h6>Around the web</h6>
-                    <p>vasdv ag adg asg</p>
-                </div>
-                <div class="col">
-                    <h6>About Freelancer</h6>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem enim rem, eius </p>
+        <div class="ms_footer-container ms_pad">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <h6>Location</h6>
+                        <p>dsfg dghsdif ugvd</p>
+                    </div>
+                    <div class="col">
+                        <h6>Around the web</h6>
+                        <p>vasdv ag adg asg</p>
+                    </div>
+                    <div class="col">
+                        <h6>About Freelancer</h6>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem enim rem, eius </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="page-bottom">
+        <div class="page-bottom ms_pad">
             <span>Copyright Your Website 2019</span>
         </div>
     </footer>
