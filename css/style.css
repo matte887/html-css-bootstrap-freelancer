@@ -9,6 +9,7 @@
 /* RESET */
 html {
     font-size: 100%;
+    font-family: sans-serif;
 }
 
 ul {
@@ -45,11 +46,16 @@ h1, h2, h4, h6 {
 }
 
 /* Common: Star */
+.star {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
 .star::after,
 .star::before {
     display: inline-block;
     content: "";
-    width: 100px;
+    width: 150px;
     height: 3px;
     vertical-align: middle;
     background-color: white;
@@ -112,11 +118,21 @@ header {
     text-align: initial;
 }
 
-#download-button a {
+/* #download-button a {
     padding: .5rem 1rem;
     border: 1px solid white;
     border-radius: 5px;
     color: inherit;
+} */
+
+#download-button {
+    color: inherit;
+    border-color: white;
+}
+
+#download-button:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* CONTACT ME */
@@ -142,6 +158,29 @@ header {
 
 .form span:last-child::after {
     margin-top: 5rem;
+}
+
+.ms_contact .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: var(--accent-color);
+    border-radius: 0;
+}
+
+.ms_contact .form-control:focus {
+    box-shadow: none;
+    border-color: var(--accent-color);
+}
+
+.ms_btn-send {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.ms_btn-send:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* FOOTER */
