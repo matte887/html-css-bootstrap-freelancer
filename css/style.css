@@ -95,6 +95,12 @@ header {
     color: white;
 }
 
+/*HEADER BOOTSTRAP */
+/* .navbar-brand {
+    text-transform: uppercase;
+} */
+
+
 /* JUMBOTRON */
 .jumbotron {
     text-align: center;
@@ -114,6 +120,31 @@ header {
 .portfolio-img {
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+}
+
+.layover:hover:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 188, 156, .3);
+}
+
+.portfolio-img:hover .fa-plus {
+    display: block;
+}
+
+.fa-plus {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 /* ABOUT */
