@@ -216,11 +216,15 @@ footer {
     text-align: center;
 }
 
-footer .col p {
+footer .col ul {
     padding: 0 5rem;
 }
 
-footer .col p i {
+footer .col ul li {
+    display: inline-block;
+}
+
+footer .col ul i {
     height: 2.5rem;
     width: 2.5rem;
     margin: 0 0.3rem;
