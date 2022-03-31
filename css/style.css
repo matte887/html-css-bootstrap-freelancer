@@ -233,6 +233,10 @@ footer .col ul i {
     border-radius: 50%;
 }
 
+footer .ms_green-text {
+    color: var(--main-color);
+}
+
 .page-bottom {
     background-color: var(--accent-color);
 }
